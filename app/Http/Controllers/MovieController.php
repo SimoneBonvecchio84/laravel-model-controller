@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 
 class MovieController extends Controller
 {
-    public function index () {
-        $movies = Movie::all();
-        dd($movies);
-        return view('movies');
-    }
+   public function index() {
+    $movie = Movie::all();
+    dd($movie);
+    return view('movies');
+   }
 }

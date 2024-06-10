@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+// namespace App\Http\Controllers\MovieController;
 
-use App\Http\MovieController;
+use App\Http\Controllers\MovieController;
 use Illuminate\Support\Facades\Route;
 
 /*
